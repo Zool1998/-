@@ -1,0 +1,76 @@
+body {
+    background-image: url("img/Fotograf.png");
+    background-size: cover;
+    font-size:  14pt;
+    font-family: Arial, sans-serif;
+    color: #ffffff
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+nav > ul > li.active a{
+  background: #6544;
+  color: #ffffff;
+}
+nav ul li a {
+    text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  color: #808080;
+  -webkit-transition: 0.9s; /* плавный переход  */
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+nav  ul  li  a:hover {
+  color: #000000;
+  background: #D3D3D3;
+}
+main {
+    padding: 80px;
+    }
+
+
+
+p {
+    font-size: 14pt;
+    color: #ffffff;
+    margin: 10px;
+
+}
+div {
+  width: 43%;
+  text-align: left;
+  background: rgba(55, 55, 55, 0.4);
+}
+.absolute {
+  position: absolute;
+  bottom: 55%;
+  left: 80;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  }

@@ -1,0 +1,68 @@
+
+body {
+    background:#000000;
+    background-size: cover;
+    font-size:  14pt;
+    font-family: Arial, sans-serif;
+    color: #ffffff
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+nav > ul > li.active a{
+  background: #6544;
+  color: #ffffff;
+}
+nav ul li a {
+    text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  color: #808080;
+  -webkit-transition: 0.9s; /* плавный переход  */
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+nav  ul  li  a:hover {
+  color: #000000;
+  background: #D3D3D3;
+}
+main {
+    padding: 80px;
+    text-align: left;
+    }
+.contact-info {
+    font-size: 14pt;
+}
+  h1 {
+    font-size: 40px;
+    margin: 50px 0px;
+    color: white;
+}
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
